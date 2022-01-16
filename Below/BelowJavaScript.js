@@ -18,6 +18,8 @@ function draw() {
         ctx.fillStyle = "brown"
         ctx.fillRect(0, 2 * backgroundCanvas.height / 3, backgroundCanvas.width, backgroundCanvas.height / 3);
         ctx.stroke();
+        ctx.beginPath();
+
     }
 
     window.requestAnimationFrame(draw);
